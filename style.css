@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .wrapper {
+    margin: 50px;
+    font-size: 30px;
+}
+li {
+    list-style: none;
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+   
+}
+.header {
+    padding: 50px;
+    background-color: var(--header_color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    margin: 0 auto;
+}
+.btn {
+    width: 48px;
+    background-color: var(--btn_color);
+}
+:root{
+    --header_color: #e79797;
+    --wrapper_color: #e4cccc;
+    --text-color: black;
+    --btn_color: #758edf;
+  }
+  :root[theme='dark'] {
+    --header_color: #252830;
+    --wrapper_color: #273349;
+    --text-color: #fff;
+    --btn_color: #3b4767;
+  }
+.footer{
+    background-color: var(--header_color);
+    width: auto;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.texts{
+    --i:"I";
+    --study:"study";
+    --at:"at";
+    --it:"IT";
+    --Academy:"Academy";
+    display: flex;
+    column-gap: 5px;
+}
+.i::after{
+    content: var(--i);
+}
+.study::after{
+    content: var(--study);
+}
+.at::after{
+    content: var(--at);
+}
+.it::after{
+    content: var(--it);
+}
+.Academy::after{
+    content: var(--Academy);
+}
